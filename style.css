@@ -5,9 +5,19 @@
     
 }
 body{
-    font-family: "Crimson Text", serif;
+    font-family: SolaimanLipiNormal;
     font-size: 14px;
+    line-height: 160%;
 }
+
+@font-face {
+    font-family: SolaimanLipiNormal;
+    src: url(fonts/solaimanlipi_20-04-07.eot);
+    src: url(fonts/solaimanlipi_20-04-07.eot) format("embedded-opentype"),
+      url(fonts/solaimanlipi_20-04-07.woff) format("woff"),
+      url(fonts/solaimanlipi_20-04-07.ttf) format("truetype"),
+      url(fonts/solaimanlipi_20-04-07.svg#SolaimanLipiNormal) format("svg");
+  }
 
 
 /* Navbar and Footer Css */
