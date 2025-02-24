@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: "Crimson Text", serif;
+    font-size: 14px;
+}
+
+
+/* Navbar and Footer Css */
+.dropdown-menu{
+    border: 0;
+    border-radius: 0;
+   
+    padding-bottom: 0;
+}
+.dropdown-item:hover{
+    background-color: #bb1d2c;
+    color: white;
+}
+.menu-ft-size li a{
+
+    font-weight: 700;
+}
+
+.nav-link:hover{
+    color: #bb1d2c !important;
+    }
+
+
+    
+.footer-bg{
+    background-color:#0a0d14 ;
+    
+}
+
+.footerMenu-ft-color{
+color: lightgrey;
+
+}
+
+/* Home Page Section One  */
+
+.bodyBg-color{
+    background-color: #0A0A0A;
+}
+.sub-heading-color{
+    color:#949cb0 ;
+}
+.headingLine{
+    
+    width: 100px;
+}
+
+/* home page owl carousel slider css */
+#owl-demo .item{
+    margin: 3px;
+  }
+  #owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
