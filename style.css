@@ -74,3 +74,8 @@ color: lightgrey;
     width: 100%;
     height: auto;
   }
+
+  .custom-bottom-end {
+    bottom: 55px;
+    right: 27px;
+}
