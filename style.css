@@ -79,3 +79,12 @@ color: lightgrey;
     bottom: 55px;
     right: 27px;
 }
+
+a.icon-link.autoScroll i:hover {
+    transform: scale(1.10);
+    color: yellowgreen;
+}
+
+a.icon-link.autoScroll {
+    transition: 0.5s ease;
+}
