@@ -6,7 +6,7 @@
 }
 body{
     font-family: SolaimanLipiNormal;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 160%;
 }
 
@@ -40,7 +40,9 @@ body{
     color: #bb1d2c !important;
     }
 
-
+.login-close-btn{
+    background-color: white !important;
+    }
     
 .footer-bg{
     background-color:#0a0d14 ;
@@ -90,4 +92,13 @@ a.icon-link.autoScroll i:hover {
 
 a.icon-link.autoScroll {
     transition: 0.5s ease;
+}
+
+/* Single Page CSS Start  */
+
+.main-body-single-page p{
+ font-size: 18px;
+ line-height: 160%;
+ color: #555;
+ text-align: justify;
 }
