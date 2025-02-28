@@ -102,3 +102,12 @@ a.icon-link.autoScroll {
  color: #555;
  text-align: justify;
 }
+
+.photo-hover a img:hover {
+    transform: scale(1.10);
+   
+}
+
+.photo-hover a img {
+    transition: 0.5s ease;
+}
