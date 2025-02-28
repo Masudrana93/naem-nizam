@@ -62,8 +62,11 @@ color: lightgrey;
 }
 .headingLine{
     
-    width: 60%;
+    width: calc(100% - 60%);
+    height: 1px;
+    background-color: gray;
 }
+
 
 /* home page owl carousel slider css */
 #owl-demo .item{
