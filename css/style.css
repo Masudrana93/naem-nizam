@@ -70,7 +70,7 @@ color: lightgrey;
 }
 
 
-/* home page owl carousel slider css */
+/* home page owl carousel slider css start */
 #owl-demo .item{
     margin: 3px;
   }
@@ -84,6 +84,52 @@ color: lightgrey;
     bottom: 55px;
     right: 27px;
 }
+/* new  */
+.owl-nav .owl-next{
+    position: absolute;
+    top: calc(50% - 50px);
+    right: 250px;
+    opacity: 1;
+    font-size: 50px !important;
+    z-index: 1;
+}
+
+.owl-nav .owl-prev{
+    position: absolute;
+    top: calc(50% - 50px);
+    left:250px;
+    opacity: 1;
+    font-size: 50px !important;
+    z-index: 1;
+    
+}
+
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next {
+    background: rgba(180, 180, 180, 0.6) !important;
+    color: rgba(180, 180, 180, 0.8) !important;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px !important;
+}
+
+.owl-carousel .owl-nav button.owl-next:hover {
+    background: white !important;
+    color: rgba(180, 180, 180, 0.8) !important;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px !important;
+    transition: all 0.3s !important;
+}
+.owl-carousel .owl-nav button.owl-prev:hover{
+    background: white !important;
+    color: rgba(180, 180, 180, 0.8) !important;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px !important;
+    transition: all 0.3s !important;
+}
+
+/* home page owl carousel slider css end */
 
 a.icon-link.autoScroll i:hover {
     transform: scale(1.10);
@@ -93,6 +139,7 @@ a.icon-link.autoScroll i:hover {
 a.icon-link.autoScroll {
     transition: 0.5s ease;
 }
+
 
 /* Single Page CSS Start  */
 
@@ -104,7 +151,7 @@ a.icon-link.autoScroll {
 }
 
 .photo-hover a img:hover {
-    transform: scale(1.10);
+    transform: scale(1.05);
    
 }
 
