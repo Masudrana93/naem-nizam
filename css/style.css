@@ -124,3 +124,92 @@ a.icon-link.autoScroll {
     transition: 0.5s ease;
 }
 /* Single Page CSS End  */
+
+/* video Playlist css start  */
+
+.main-video-container{
+   
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    background-color: #fff;
+    padding:15px;
+ }
+ 
+.main-video-container .main-video{
+    margin-bottom: 7px;
+    border-radius: 5px;
+    width: 100%;
+ }
+ 
+.main-video-container .main-vid-title{
+    font-size: 20px;
+    color:#444;
+ }
+ 
+.video-list-container{
+    
+    /* height: 485px; */
+    overflow-y: scroll;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    background-color: #fff;
+    padding:15px;
+ }
+ 
+.video-list-container::-webkit-scrollbar{
+    width: 10px;
+ }
+ 
+.video-list-container::-webkit-scrollbar-track{
+    background-color: #fff;
+    border-radius: 5px;
+ }
+ 
+.video-list-container::-webkit-scrollbar-thumb{
+    background-color: #444;
+    border-radius: 5px;
+ }
+ 
+.video-list-container .list{
+    display: flex;
+    align-items: center;
+    gap:15px;
+    padding:10px;
+    background-color: #eee;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+ }
+ 
+.video-list-container .list:last-child{
+    margin-bottom: 0;
+ }
+ 
+ .video-list-container .list.active{
+    background-color: #444;
+ }
+ 
+ .video-list-container .list.active .list-title{
+    color:#fff;
+ }
+ 
+ .video-list-container .list .list-video{
+    width: 100px;
+    border-radius: 5px;
+ }
+ 
+ .video-list-container .list .list-title{
+    font-size: 17px;
+    color:#444;
+ }
+
+ /* video Playlist css End */
+
+ /* Video Gallery CSS Start  */
+ .play-btn a i:hover {
+    transform: scale(1.25);  
+}
+
+.play-btn a i{
+    transition: 0.5s ease;
+}
