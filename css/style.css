@@ -206,10 +206,15 @@ a.icon-link.autoScroll {
  /* video Playlist css End */
 
  /* Video Gallery CSS Start  */
- .play-btn a i:hover {
-    transform: scale(1.25);  
+
+ .for-playbtn-hover:hover .play-btn a{
+    color: red !important;
+    
+} 
+.for-playbtn-hover{
+    transition: 0.5s ease !important;
 }
 
-.play-btn a i{
-    transition: 0.5s ease;
-}
+   
+
+
