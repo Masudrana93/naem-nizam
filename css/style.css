@@ -215,6 +215,13 @@ a.icon-link.autoScroll {
     transition: 0.5s ease !important;
 }
 
+.glass-effect {
+    
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px); /* Blur effect */
+    padding: 10px;
+    
+}
    
 
 
