@@ -141,8 +141,8 @@
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb custom-modern-breadcrumb">
       <li class="breadcrumb-item"><a href="#"><i class="bi bi-house-door"></i> Home</a></li>
-      <li class="breadcrumb-item"><a href="#"><i class="bi bi-folder"></i> Library</a></li>
-      <li class="breadcrumb-item active" aria-current="page"><i class="bi bi-file-earmark"></i> Data</li>
+      <li class="breadcrumb-item"><a href="#"><i class="bi bi-folder"></i> Video Gallery</a></li>
+      <li class="breadcrumb-item active" aria-current="page"><i class="bi bi-file-earmark"></i> Video Playlist</li>
     </ol>
   </nav>
   
@@ -155,7 +155,10 @@
 
 
         <div class="col-md-8 main-video-container align-self-start">
-          <video src="img-two/vid-1.mp4" loop controls class="main-video"></video>
+
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/R0OjIo4BSYY?si=ic9j8v6irZrfLHE3" loop controls class="main-video" ></iframe>
+          </div>
           <h3 class="main-vid-title fw-bold">House flood animation</h3>
 
           <div class="d-flex justify-content-between mt-3">
@@ -179,19 +182,28 @@
         <div class="col-md-3">
           <div class="row video-list-container">
             <h5 class="text-bg-danger p-3 fw-bold">আরও ভিডিও দেখুন</h5>
-            <div class="col-12 list active">
-              <video src="img-two/vid-1.mp4" class="list-video"></video>
-              <a href="#" class="text-decoration-none">
-                <h3 class="list-title">house flood animation</h3>
-              </a>
 
+            <div class="col-12 list active">
+              <div class="ratio ratio-21x9">
+                <iframe src="https://www.youtube.com/embed/R0OjIo4BSYY?si=ic9j8v6irZrfLHE3" class="list-video"></iframe>
+              </div>
+              <div>
+                <a href="#" class="text-decoration-none">
+                  <h3 class="list-title">Naem Nizam's Blog</h3>
+                </a>
+              </div>
             </div>
 
             <div class="col-12 list">
-              <video src="img-two/vid-2.mp4" class="list-video"></video>
-              <a href="#" class="text-decoration-none">
-                <h3 class="list-title">zoombie walking animation</h3>
-              </a>
+              
+              <div class="ratio ratio-21x9">
+                <iframe src="https://www.youtube.com/embed/VxylbHjKiEw?si=BJSn2pe6UvXXdixO" class="list-video"></iframe>
+              </div>
+              <div>
+                <a href="#" class="text-decoration-none">
+                  <h3 class="list-title">Naem Nizam's Blog-2</h3>
+                </a>
+              </div>
             </div>
 
             <div class="col-12 list">
